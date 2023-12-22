@@ -1,0 +1,626 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ! Header */
+
+a {
+  text-decoration: none;
+}
+
+.select_nav {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.container {
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-header {
+  height: 150px;
+  border: 1px solid red;
+}
+
+main {
+  width: 100%;
+  height: 650px;
+  background-image: url(http://asoiu.edu.az/upload/slider/101.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.select_nav option {
+  color: black;
+}
+
+body {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  background: #f3f5fc
+    url("http://asoiu.edu.az/public/user/assets/img/Pattern%20Block%20-%20Transparent.png");
+}
+
+.main_header {
+  font-size: 20px;
+  font-weight: 800 !important;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+header .navbar ul li a {
+  font-size: 20px;
+  padding: 5px 20px;
+  color: white;
+  display: block;
+}
+
+header .navbar ul li a:hover {
+  background: #dfe3f6;
+  border-radius: 16px;
+
+  color: #333;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  display: none;
+}
+
+header .navbar ul li ul li {
+  background: #f3f5fc;
+  width: 100%;
+  font-family: "Albert Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1a265c;
+}
+
+header .navbar ul li ul li a {
+  font-family: "Albert Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #1a265c;
+}
+
+header .navbar ul li ul li ul {
+  left: 200px;
+  top: 0px;
+}
+
+header .navbar ul li:hover > ul {
+  display: initial;
+}
+
+header .navbar ul li .second {
+  left: 200px;
+}
+
+.top-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  font-family: "Albert Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #dfe3f6;
+}
+
+.top-list li {
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.top-list li a {
+  font-family: "Albert Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #dfe3f6;
+}
+
+.bottom-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  font-family: "Albert Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.bottom-list li {
+  margin: 0px 20px 0px 0px;
+}
+
+.head-part {
+  display: flex;
+  align-items: center;
+  gap: 450px;
+}
+
+.logo {
+  margin-top: 3px;
+}
+
+.main_part {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side-arrow {
+  transform: rotate(180deg);
+}
+
+.top-arrow {
+  transform: rotate(-90deg);
+}
+
+.main-btn {
+  margin-top: 40%;
+  padding: 12px;
+  height: 45px;
+  width: 140px;
+  border: none;
+  background-color: #3046a8;
+  color: white;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+}
+
+/* ! Video */
+
+.page__2 {
+  display: flex;
+  margin-left: 9%;
+  margin-top: 5%;
+  border: 1px solid rgb(253, 253, 253);
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 1200px;
+  height: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page__2-information_part {
+  font-size: 20px;
+  text-align: center;
+  gap: 10px;
+}
+.page__2-information_part h2 {
+  color: rgb(5, 5, 137);
+}
+.page__2-information_part p {
+  color: rgb(156, 156, 239);
+}
+.page_2-1 {
+  position: relative;
+  background-image: url(../imagess/uni_daha_art2.jpg);
+  border: 1px solid purple;
+  height: 300px;
+  width: 1100px;
+  border-radius: 40px;
+  margin-left: 190px;
+  margin-top: 40px;
+}
+.page_2-1 i {
+  font-size: 150px;
+}
+.page_2-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_2-video_part a {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  color: aliceblue;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 6px;
+  text-decoration: none;
+}
+
+/* ! University pictures */
+
+.containerrr {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.containerrr__header {
+  width: 502px;
+  min-height: 83px;
+  background: #dfe3f6;
+  border-radius: 22px;
+  margin: 22px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.latest {
+  color: #3e5bdb;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(164, 175, 229, 0.25);
+  padding: 8px;
+  cursor: pointer;
+
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.events {
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: -0.0008em;
+  color: #a4afe5;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.events:hover {
+  color: #3e5bdb;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(164, 175, 229, 0.25);
+  padding: 8px;
+
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.containerrr__all {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 110px;
+}
+
+.containerrr__all > a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.container__all__news {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(164, 175, 229, 0.25);
+  border-radius: 15px;
+  font-style: normal;
+  color: #3e5bdb;
+  border-color: transparent;
+  padding: 10px;
+}
+
+.containerrr a {
+  text-decoration: none;
+}
+
+.containerrr__main {
+  margin: 40px 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container__main__boxs {
+  width: 270px;
+}
+
+.txt1 {
+  padding: 10px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #3e5bdb;
+}
+
+.txt2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  color: #1a265c;
+}
+
+.container__main__img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+/* ! Facts and numbers */
+
+.facts__numbers {
+  width: 100%;
+  margin: 0;
+  padding: 0 160px;
+}
+
+.facts__numbers > p {
+  font-size: 35px;
+  line-height: normal;
+  padding: 30px 0px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.facts__numbers__main {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+.total-number__main__cols {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  column-gap: 80px;
+  row-gap: 6px;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  justify-content: center;
+}
+
+.col__text__number {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1a265c;
+  text-align: center;
+}
+
+.col__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1a265c;
+  text-align: center;
+}
+
+/* ! Faculties */
+
+.faculties {
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.faculties > p {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.faculties__cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.faculties__col__boxs {
+  padding: 28px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 412px;
+  border-radius: 20px;
+  z-index: -1;
+
+  background: linear-gradient(
+      0deg,
+      rgba(16, 21, 70, 0.65),
+      rgba(16, 21, 70, 0.65)
+    ),
+    url(http://asoiu.edu.az/public/user/img/about/fakulte_power_head_background.jpg);
+}
+
+.faculties__col__boxs > p {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+  color: white;
+}
+
+.faculties__col__boxs a img {
+  display: block;
+  margin: 6px auto;
+}
+
+/* ! Layihə və tərəfdaşlar */
+
+.page-box {
+  width: 100%;
+  height: 700px;
+}
+
+.container-all {
+  height: 600px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.first-part_img {
+  width: 350px;
+  height: 200px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.text {
+  width: 75vw;
+  padding: 20px;
+}
+
+.container2 {
+  display: flex;
+  gap: 100px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.second-part_img {
+  /* width: 330px; */
+  /* height: 200px; */
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+.second-part_img:hover {
+  background-color: #fff;
+  border-radius: 15px;
+  opacity: 1;
+  width: 330px;
+  height: 200px;
+  box-shadow: 0 10px 5px grey;
+}
+
+.text2 {
+  width: 75vw;
+}
+
+/* ! Footer */
+
+.class {
+  background-color: #d8dfe6;
+}
+.class1 {
+  display: flex;
+  border: 1px;
+  background-color: #d8dfe6;
+  width: 300fr;
+  height: 300px;
+  font-family: sans-serif;
+  color: #1a265c;
+}
+.item1 {
+  padding-top: 60px;
+  padding-left: 60px;
+  font-size: 30px;
+  font-style: bold;
+}
+.item2 {
+  padding-top: 65px;
+  padding-left: 70px;
+  font-size: 25px;
+}
+.item2 a {
+  text-decoration: none;
+  color: #1a265c;
+}
+.item2 ul {
+  list-style: none;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.class2 {
+  background-color: #d8dfe6;
+  border: 1px;
+  display: flex;
+
+  height: 20vh;
+  width: 300fr;
+}
+.hr1 {
+  border-top: 2px solid rgb(151, 151, 225);
+  margin: 60px;
+}
+.item3 {
+  padding-left: 50px;
+  text-align: center;
+  display: flex;
+}
+.item3 a {
+  text-decoration: none;
+  color: #1a265c;
+  gap: 5px;
+}
+.item3 ul {
+  list-style: none;
+}
+.footer-ul1 {
+  display: flex;
+  gap: 50px;
+  font-size: 3vh;
+}
+.footer-icons {
+  display: flex;
+  padding-left: 70vh;
+  gap: 20px;
+  font-size: 20px;
+}
+.icons {
+  color: #1a265c;
+}
